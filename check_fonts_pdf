@@ -8,7 +8,7 @@
 #   or 'sudo apt install poppler-utils' (Ubuntu/Debian)
 #
 # Usage:
-#   $ test_embedded_fonts_pdf.sh <pdf-file>
+#   $ check_fonts_pdf <pdf-file>
 
 FILE=$1
 
