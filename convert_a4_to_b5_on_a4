@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# Scales A4 PDF to B5 size with a B5-size box on A4 paper. Saves to new file in
+# same folder
+
+# Requires:
+#   pdftk
+#   pdfscale (https://github.com/tavinus/pdfScale)
+#
+# Usage:
+#   $ convert_a4_to_b5_on_a4 <pdf-file>
+
+IN_FILE=$1
+STAMP="a4-w-a5-border.pdf"
+SCALED_FILE="${IN_FILE%%.*}".SCALED.pdf
+OUT_FILE="${IN_FILE%%.*}"-w-b5-border.pdf
+
+pdfscale -v -s 0.84 $IN_FILE
+pdftk "$SCALED_FILE" stamp "$STAMP" output "$OUT_FILE"
+
+mv "$SCALED_FILE" ~/.local/share/Trash/files
+
