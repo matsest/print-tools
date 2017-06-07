@@ -4,7 +4,7 @@
 # same folder
 
 # Requires:
-#   pdftk
+#   pdftk (https://www.pdflabs.com/tools/pdftk-server/)
 #   pdfscale (https://github.com/tavinus/pdfScale)
 #
 # Usage:
