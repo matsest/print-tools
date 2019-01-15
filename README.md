@@ -36,5 +36,5 @@ If you write it in B5 and want to print it on A4 in the same sized box, add the 
 
 ## Licence
 
-* [MIT Licence](LICENCE)
-* [GPL Licence](https://www.pdflabs.com/docs/pdftk-license/gnu_general_public_license_2.txt) (pdftk)
+* [MIT License](LICENSE)
+* [GPL License](https://www.pdflabs.com/docs/pdftk-license/gnu_general_public_license_2.txt) (pdftk)
